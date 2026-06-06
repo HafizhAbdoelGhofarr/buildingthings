@@ -1,8 +1,3 @@
-//ini pake buzz aktif, jadi suaranya itu kecil banget,
-//deketin ke kuping baru kedengeran,
-//kenapa? karna kalo mau ngatur colume buzzer aktif perlu  LEDC (LED Control) yang tugasnya generate sinyal PWM
-//sedangkan servo juga perlu, jadi kalo maksa buzzer aktif pake LEDC, bentrok ama servo,
-//servo ga bisa jalan, dan sinya yg dikirim ultrasonik malah kebaca di buzzer.
 
 #define BLYNK_TEMPLATE_ID "TMPL6qNLyA5xS"
 #define BLYNK_TEMPLATE_NAME "UAP"
